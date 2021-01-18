@@ -18,7 +18,7 @@ contract("_0xGGToken", function (accounts) {
         return tokenInstance.standard();
       })
       .then(function (standard) {
-        assert.equal(standard, "0xGG  Token v1.0", "has the correct standard");
+        assert.equal(standard, "0xGG Token v1.0", "has the correct standard");
       });
   });
 
