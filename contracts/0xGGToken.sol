@@ -8,9 +8,20 @@ contract _0xGGToken {
     uint256 public totalSupply;
 
     /**
-  Handels Transfer of Token
- */
+    Handels Transfer of Token
+    */
     event Transfer(address indexed _from, address indexed _to, uint256 _value);
 
-    
+    /**
+    Event Handles Approval
+    */
+    event Approval(
+        address indexed _owner,
+        address indexed _spender,
+        uint256 _value
+    );
+
+    mapping(address => uint256) public balanceOf;
+
+    mapping(address => mapping(address => uint256)) public allowance;
 }
