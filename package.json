@@ -1,0 +1,17 @@
+{
+  "name": "SundToken",
+  "version": "1.0.0",
+  "description": "SundToken Token",
+  "main": "index.js",
+  "repository": "https://github.com/DEVMOI/SundToken.git",
+  "author": "Gates,Warren Christopher <warrencgates@devmoi.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "chai": "^4.2.0",
+    "hardhat": "^2.0.8"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.3.0"
+  }
+}

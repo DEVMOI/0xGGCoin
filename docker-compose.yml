@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ganache:
+    image: moikapy/moiganache
+    command: 'ganache-cli -h 0.0.0.0 -s devmoi-e 9001 -q '
+    ports:
+      - '9545:8545'
